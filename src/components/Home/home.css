@@ -125,7 +125,7 @@
         height: 200px;
     }
     .home__data {
-        grid-column: 2/3;
+        grid-column: 1/3;
     }
 }
 
