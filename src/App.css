@@ -17,7 +17,7 @@
 
   /* Font & Typography */
   --body-font: "Poppins", sans-serif;
-  --big-font-size: 3.5rem;
+  --big-font-size: 2.25rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
@@ -145,8 +145,8 @@ img {
   display: inline-block;
   background-color: var(--title-color);
   color: var(--container-color);
-  padding: 1.25rem 2rem;
-  border-radius: 1rem;
+  padding: 1rem 1.25rem;
+  border-radius: .8rem;
   font-weight: var(--font-medium);
 }
 
@@ -174,7 +174,7 @@ img {
     margin-right: var(--mb-1-5);
   }
   .button {
-    padding: 1rem 1.75rem;
+    padding: .75rem 1rem;
   }
   .button__icon {
     width: 22px;
@@ -207,5 +207,13 @@ img {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
+  }
+  .button {
+    padding: .75rem 1rem;
+    font-size: var(--small-font-size);
+  }
+  .button__icon {
+    width: 18px;
+    height: 18px;
   }
 }
