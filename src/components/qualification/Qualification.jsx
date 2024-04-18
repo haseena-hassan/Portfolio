@@ -11,12 +11,12 @@ const Qualification = () => {
 
             <div className="qualification__container container">
                 <div className="qualification__tabs">
-                    <div className="qualification__button button--flex" onClick={() => setToggle(1)} >
+                    <div className={toggle === 1 ? "qualification__active qualification__button button--flex" : "qualification__button button--flex"} onClick={() => setToggle(1)} >
                         <i className="uik uil-graduation-cap qualification__icon"></i>
                         Education
                     </div>
 
-                    <div className="qualification__button button--flex" onClick={() => setToggle(2)} >
+                    <div className={toggle === 2 ? "qualification__active qualification__button button--flex" : "qualification__button button--flex"} onClick={() => setToggle(2)} >
                         <i className="uik uil-briefcase-alt qualification__icon"></i>
                         Experience
                     </div>
