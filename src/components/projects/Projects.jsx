@@ -24,43 +24,46 @@ const Projects = () => {
                         <div className="projects__modal-content">
                             <i className="uil uil-times projects__modal-close" onClick={() => setToggle(0)} ></i>
                             <h3 className="projects__modal-title">Video Streamer</h3>
-                            <p className="projects__modal-description">
-                                Platform for streaming videos real-time
-                            </p>
+                            <div className="projects__modal-subtitle">
+                                <p className="projects__modal-description">
+                                    Full-stack video streaming application (work on-going)
+                                </p>
+                                <a href="https://github.com/haseena-hassan/VidStreamer" target='_blank'><i class='bx bx-link-alt'></i></a>
+                            </div>
 
                             <ul className="projects__modal-items grid">
                                 <li className="projects__modal-item">
-                                    <i className="uil uil-check-circle projects__modal-icon"></i>
+                                    <i className="uil uil-check-circle projects__button"></i>
                                     <p className="projects__modal-info">
-                                        Added user authentication using JWT tokens.
+                                        User sign-in, authentication, and password protection.
                                     </p>
                                 </li>
 
                                 <li className="projects__modal-item">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
                                     <p className="projects__modal-info">
-                                        Simple user interface for streaming videos.
+                                        Video Controller for uploading and streaming.
                                     </p>
                                 </li>
 
                                 <li className="projects__modal-item">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
                                     <p className="projects__modal-info">
-                                        Deployed in AWS EC2 instance using CI/CD pipelines.
+                                        Middleware to protect video service routes.
                                     </p>
                                 </li>
 
                                 <li className="projects__modal-item">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
                                     <p className="projects__modal-info">
-                                        Used message queues - RabbitMQ.
+                                        UI for user login, accounts, video library and streaming.
                                     </p>
                                 </li>
 
                                 <li className="projects__modal-item">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
                                     <p className="projects__modal-info">
-                                        ReactJS, NestJS, MongoDB, AWS, Ci/CD pipelines.
+                                        TechStack: ReactJS, NestJS, MongoDB, Multer.
                                     </p>
                                 </li>
                             </ul>
@@ -70,8 +73,8 @@ const Projects = () => {
 
                 <div className="projects__content">
                     <div>
-                        <i className="uil uil-arrow projects__icon"></i>
-                        <h3 className="projects__title">Video <br/> Streamer</h3>
+                        <i class='uil uil-chat-info projects__icon' ></i>
+                        <h3 className="projects__title">Notified <br/> App</h3>
                     </div>
                     <span className="projects__button" onClick={() => setToggle(2)} >View More
                     <i className="uil uil-arrow-right projects__button-icon"></i>
@@ -80,44 +83,47 @@ const Projects = () => {
                     <div className={toggle === 2 ? "projects__modal active-modal" : "projects__modal"}>
                         <div className="projects__modal-content">
                             <i className="uil uil-times projects__modal-close" onClick={() => setToggle(0)} ></i>
-                            <h3 className="projects__modal-title">Video Streamer</h3>
-                            <p className="projects__modal-description">
-                                Platform for streaming videos real-time
-                            </p>
+                            <h3 className="projects__modal-title">Notified App</h3>
+                            <div className="projects__modal-subtitle">
+                                <p className="projects__modal-description">
+                                    Application to collaboratively manage and track career openings
+                                </p>
+                                <a href="https://github.com/adarshsuresh07/Notified" target='_blank'><i class='bx bx-link-alt'></i></a>
+                            </div>
 
                             <ul className="projects__modal-items grid">
                                 <li className="projects__modal-item">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
                                     <p className="projects__modal-info">
-                                        Added user authentication using JWT tokens.
+                                        User authentication and account verification.
                                     </p>
                                 </li>
 
                                 <li className="projects__modal-item">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
                                     <p className="projects__modal-info">
-                                        Simple user interface for streaming videos.
+                                        Opportunities can be posted & tracked on board layout.
                                     </p>
                                 </li>
 
                                 <li className="projects__modal-item">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
                                     <p className="projects__modal-info">
-                                        Deployed in AWS EC2 instance using CI/CD pipelines.
+                                        Filter, search and customize functionalities.
                                     </p>
                                 </li>
 
                                 <li className="projects__modal-item">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
                                     <p className="projects__modal-info">
-                                        Used message queues - RabbitMQ.
+                                        Users get notified on every new job posting.
                                     </p>
                                 </li>
 
                                 <li className="projects__modal-item">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
                                     <p className="projects__modal-info">
-                                        ReactJS, NestJS, MongoDB, AWS, Ci/CD pipelines.
+                                        TechStack: ReactJS, NodeJS, ExpressJs, MongoDB, SendGrid.
                                     </p>
                                 </li>
                             </ul>
@@ -128,59 +134,64 @@ const Projects = () => {
                 <div className="projects__content">
                     <div>
                         <i className="uil uil-edit projects__icon"></i>
-                        <h3 className="projects__title">Video <br/> Streamer</h3>
+                        <h3 className="projects__title">EDI Spec <br/> Generator Chatbot</h3>
                     </div>
                     <span className="projects__button" onClick={() => setToggle(3)} >View More
                     <i className="uil uil-arrow-right projects__button-icon"></i>
                     </span>
-
+                    
                     <div className={toggle === 3 ? "projects__modal active-modal" : "projects__modal"}>
                         <div className="projects__modal-content">
                             <i className="uil uil-times projects__modal-close" onClick={() => setToggle(0)} ></i>
-                            <h3 className="projects__modal-title">Video Streamer</h3>
-                            <p className="projects__modal-description">
-                                Platform for streaming videos real-time
-                            </p>
+                            <h3 className="projects__modal-title">EDI Specification Generator Chatbot</h3>
+                            <div className="projects__modal-subtitle">
+                                <p className="projects__modal-description">
+                                    Chatbot to generate specification for EDI documents that define structure and formatting of data exchanged between trading partners electronically.
+                                </p>
+                                <a href="https://github.com/haseena-hassan/EDI-Spec-Generator" target='_blank'><i class='bx bx-link-alt'></i></a>
+                            </div>
+                            
 
                             <ul className="projects__modal-items grid">
                                 <li className="projects__modal-item">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
                                     <p className="projects__modal-info">
-                                        Added user authentication using JWT tokens.
+                                        Built conversational logic using IBM Watson.
                                     </p>
                                 </li>
 
                                 <li className="projects__modal-item">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
                                     <p className="projects__modal-info">
-                                        Simple user interface for streaming videos.
+                                        Migrated UI from Angular to React.
                                     </p>
                                 </li>
 
                                 <li className="projects__modal-item">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
                                     <p className="projects__modal-info">
-                                        Deployed in AWS EC2 instance using CI/CD pipelines.
+                                        Integrated chatbot with UI. 
                                     </p>
                                 </li>
 
                                 <li className="projects__modal-item">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
                                     <p className="projects__modal-info">
-                                        Used message queues - RabbitMQ.
+                                        Added PDF export functionality.
                                     </p>
                                 </li>
 
                                 <li className="projects__modal-item">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
                                     <p className="projects__modal-info">
-                                        ReactJS, NestJS, MongoDB, AWS, Ci/CD pipelines.
+                                        TechStack: ReactJS, Bootstrap, IBM Watson, IBM Cloud.
                                     </p>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
+                
             </div>
         </section>
     )

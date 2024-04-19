@@ -2,6 +2,10 @@ import React from 'react'
 import './skills.css'
 import Frontend from './Frontend'
 import Backend from './Backend'
+import DbCloud from './DbCloud'
+import CyberSec from './CyberSec'
+import Programming from './Programming'
+import OtherSkills from './Others'
 
 const Skills = () => {
     return(
@@ -10,9 +14,15 @@ const Skills = () => {
             <span className="section__subtitle">My Technical Skills</span>
 
             <div className="skills__container container grid">
-                <Frontend />
                 <Backend />
+                <Frontend />
+                <DbCloud />
+
+                <CyberSec />
+                <Programming />
+                <OtherSkills />
             </div>
+            
         </section>
     )
 }

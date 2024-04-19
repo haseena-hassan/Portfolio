@@ -1,6 +1,6 @@
 .skills__container {
-    grid-template-columns: repeat(2, 350px);
-    column-gap: 3rem;
+    grid-template-columns: repeat(3, 330px);
+    column-gap: 1.8rem;
     justify-content: center;
 }
 
@@ -41,8 +41,8 @@
 }
 
 .skills__name {
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
+    font-size: var(--small-font-size);
+    font-weight: var(--font-normal);
     line-height: 18px;
 }
 

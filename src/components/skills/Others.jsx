@@ -1,30 +1,30 @@
 import React from 'react'
 
-const Backend = () => {
+const OtherSkills = () => {
   return (
     <div className="skills__content">
-            <h3 className="skills__title">Backend</h3>
+            <h3 className="skills__title">Others</h3>
             <div className="skills__box">
                 <div className="skills__group">
                     <div className="skills__data">
                         <i class='bx bx-badge-check'></i>
                         <div>
-                            <h3 className="skills__name">NodeJs</h3>
-                            <span className="skills__level">Advanced</span>
-                        </div>
-                    </div>
-                    <div className="skills__data">
-                        <i class='bx bx-badge-check'></i>
-                        <div>
-                            <h3 className="skills__name">NestJs</h3>
-                            <span className="skills__level">Intermediate</span>
-                        </div>
-                    </div>
-                    <div className="skills__data">
-                        <i class='bx bx-badge-check'></i>
-                        <div>
-                            <h3 className="skills__name">ASP.NET</h3>
+                            <h3 className="skills__name">Docker</h3>
                             <span className="skills__level">Acquainted</span>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <i class='bx bx-badge-check'></i>
+                        <div>
+                            <h3 className="skills__name">Git</h3>
+                            <span className="skills__level">WellAcquainted</span>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <i class='bx bx-badge-check'></i>
+                        <div>
+                            <h3 className="skills__name">Technical Writing</h3>
+                            <span className="skills__level">Advanced</span>
                         </div>
                     </div>
                 </div>
@@ -32,22 +32,22 @@ const Backend = () => {
                     <div className="skills__data">
                         <i class='bx bx-badge-check'></i>
                         <div>
-                            <h3 className="skills__name">ExpressJs</h3>
-                            <span className="skills__level">Advanced</span>
+                            <h3 className="skills__name">CI/CD</h3>
+                            <span className="skills__level">Acquainted</span>
                         </div>
                     </div>
                     <div className="skills__data">
                         <i class='bx bx-badge-check'></i>
                         <div>
-                            <h3 className="skills__name">Django</h3>
-                            <span className="skills__level">Beginner</span>
+                            <h3 className="skills__name">Figma</h3>
+                            <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
                     <div className="skills__data">
                         <i class='bx bx-badge-check'></i>
                         <div>
-                            <h3 className="skills__name">SpringBoot</h3>
-                            <span className="skills__level">Beginner</span>
+                            <h3 className="skills__name">Agile Scrum</h3>
+                            <span className="skills__level">WellAcquainted</span>
                         </div>
                     </div>
                 </div>
@@ -56,4 +56,4 @@ const Backend = () => {
   )
 }
 
-export default Backend
+export default OtherSkills
