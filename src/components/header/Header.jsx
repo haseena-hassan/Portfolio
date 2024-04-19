@@ -2,6 +2,15 @@ import React, { useState } from 'react'
 import './header.css'
 
 const Header = () => {
+
+    window.addEventListener("scroll", function() {
+        const header = document.querySelector(".header")
+        if(this.scrollY >= 80)
+            header.classList.add("scroll-header")
+        else
+            header.classList.remove("scroll-header")
+    });
+
     const[toggle, setToggle] = useState(false);
 
     return (
@@ -29,7 +38,7 @@ const Header = () => {
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#project" className="nav__link">
+                            <a href="#projects" className="nav__link">
                                 <i className="uil uil-image-check nav__icon"></i> Projects
                             </a>
                         </li>
