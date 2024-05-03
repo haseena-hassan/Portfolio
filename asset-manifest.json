@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.979e0908.css",
-    "main.js": "/static/js/main.88e9d4ca.js",
+    "main.js": "/static/js/main.77a68d4e.js",
     "static/media/profile.jpg": "/static/media/profile.34a6b3a16d527cd716bf.jpg",
     "static/media/Haseena_Hassan_Resume.pdf": "/static/media/Haseena_Hassan_Resume.9bd8720de8f9ad193660.pdf",
     "index.html": "/index.html",
     "main.979e0908.css.map": "/static/css/main.979e0908.css.map",
-    "main.88e9d4ca.js.map": "/static/js/main.88e9d4ca.js.map"
+    "main.77a68d4e.js.map": "/static/js/main.77a68d4e.js.map"
   },
   "entrypoints": [
     "static/css/main.979e0908.css",
-    "static/js/main.88e9d4ca.js"
+    "static/js/main.77a68d4e.js"
   ]
 }
