@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import AboutImg from "../../assets/profile.jpg"
-import Resume from "../../assets/Haseena_Hassan_Resume.pdf"
+import Resume from "../../assets/HaseenaHassan.pdf"
 import Info from './Info'
 
 const About = () => {
@@ -10,12 +10,12 @@ const About = () => {
             <h2 className="section__title">About Me</h2>
             <span className="section__subtitle"> My Introduction</span>
             <div className="about__container container grid">
-                <img src={AboutImg} alt="" className='about__img' />
-
+                {/* <img src={AboutImg} alt="" className='about__img' /> */}
+                <div style={{justifySelf:"center", marginBottom:"6rem"}} class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="VERTICAL" data-vanity="haseena-hassan" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/haseena-hassan?trk=profile-badge"></a></div>
                 <div className="about__data">
                     <Info />
                     <p className="about__description">
-                    I am a software developer from healthcare cybersecurity domain with a strong foundation in computer science fundamentals, diverse programming languages, and system design. Passionate about tackling challenges, problem-solving, and continual learning, I thrive in collaborative environments.
+                    Experienced software developer with a strong passion for crafting secure, efficient, and reusable end-to-end solutions. Love solving challenging problems that brings impact and satisfaction to the end users. Strong proponent of teamwork and collaboration, believing that the best results come from working together. Always open for opportunities where I can grow alongside an energetic crew and make lives easier. 
                     </p>
                     <a download="" href={Resume} className="button button-flex">Download Resume
                     <svg
