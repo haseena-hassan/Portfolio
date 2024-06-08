@@ -15,7 +15,7 @@ const About = () => {
                 <div className="about__data">
                     <Info />
                     <p className="about__description">
-                    Experienced software developer with a strong passion for crafting secure, efficient, and reusable end-to-end solutions. Love solving challenging problems that brings impact and satisfaction to the end users. Strong proponent of teamwork and collaboration, believing that the best results come from working together. Always open for opportunities where I can grow alongside an energetic crew and make lives easier. 
+                    Experienced software developer with a strong passion for crafting secure, efficient, and reusable end-to-end solutions. Love solving challenging problems that brings impact and satisfaction to the end users. Strong proponent of teamwork and collaboration, believing that the best results come from working together. Always on the lookout for exciting opportunities to learn something new.
                     </p>
                     <a download="" href={Resume} className="button button-flex">Download Resume
                     <svg

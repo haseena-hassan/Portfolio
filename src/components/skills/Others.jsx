@@ -23,7 +23,7 @@ const OtherSkills = () => {
                     <div className="skills__data">
                         <i class='bx bx-badge-check'></i>
                         <div>
-                            <h3 className="skills__name">Technical Writing</h3>
+                            <h3 className="skills__name">Kubernetes</h3>
                             <span className="skills__level">Advanced</span>
                         </div>
                     </div>
@@ -46,7 +46,7 @@ const OtherSkills = () => {
                     <div className="skills__data">
                         <i class='bx bx-badge-check'></i>
                         <div>
-                            <h3 className="skills__name">Agile Scrum</h3>
+                            <h3 className="skills__name">AgileScrum</h3>
                             <span className="skills__level">WellAcquainted</span>
                         </div>
                     </div>

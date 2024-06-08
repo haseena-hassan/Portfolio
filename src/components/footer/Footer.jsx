@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
         <div className="footer__container container">
-            <div className="footer__title">Haseena</div>
+            <div className="footer__title"><span> ☺ </span>Haseena Hassan</div>
             <ul className="footer__list">
                 <li>
                     <a href="#about" className="footer__link">About</a>

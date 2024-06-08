@@ -15,10 +15,8 @@ const Skills = () => {
 
             <div className="skills__container container grid">
                 <Backend />
-                <Frontend />
                 <DbCloud />
 
-                <CyberSec />
                 <Programming />
                 <OtherSkills />
             </div>
